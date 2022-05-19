@@ -1,0 +1,232 @@
+2022-04-25T12:16:30+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:1170
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1141): bwg_upl->calc_thumb_resolution('', '', '580', '320')
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(990): bwg_upl->set_file_info(Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#10 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 1170
+
+2022-04-25T12:17:11+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:1170
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1141): bwg_upl->calc_thumb_resolution('', '', '2009', '714')
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(990): bwg_upl->set_file_info(Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#10 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 1170
+
+2022-04-25T12:17:46+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:1170
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1141): bwg_upl->calc_thumb_resolution('', '', '318', '306')
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(990): bwg_upl->set_file_info(Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#10 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 1170
+
+2022-04-25T12:18:02+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:470
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(508): bwg_upl->orient_image(Object(stdClass))
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(802): bwg_upl->handle_image_file('C:\\xampp\\htdocs...', Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1017): bwg_upl->handle_file_upload('C:\\xampp\\tmp\\ph...', 'img1_explora.jp...', '217385', 'image/jpeg', '0', 0, NULL, '/')
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#6 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#8 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#11 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 470
+
+
+2022-04-25T12:18:02+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:470
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(508): bwg_upl->orient_image(Object(stdClass))
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(802): bwg_upl->handle_image_file('C:\\xampp\\htdocs...', Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1017): bwg_upl->handle_file_upload('C:\\xampp\\tmp\\ph...', 'img2_explora.jp...', '172549', 'image/jpeg', '0', 0, NULL, '/')
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#6 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#8 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#11 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 470
+
+2022-04-25T12:18:02+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:470
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(508): bwg_upl->orient_image(Object(stdClass))
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(802): bwg_upl->handle_image_file('C:\\xampp\\htdocs...', Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1017): bwg_upl->handle_file_upload('C:\\xampp\\tmp\\ph...', 'img3_explora.jp...', '188979', 'image/jpeg', '0', 0, NULL, '/')
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#6 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#8 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#11 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 470
+
+2022-04-25T12:21:48+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:1170
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1141): bwg_upl->calc_thumb_resolution('', '', '478', '598')
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(990): bwg_upl->set_file_info(Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#10 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 1170
+
+2022-04-25T12:22:01+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:1170
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1141): bwg_upl->calc_thumb_resolution('', '', '478', '598')
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(990): bwg_upl->set_file_info(Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#10 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 1170
+
+2022-04-25T12:22:11+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:1170
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1141): bwg_upl->calc_thumb_resolution('', '', '1158', '626')
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(990): bwg_upl->set_file_info(Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#10 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 1170
+
+2022-04-25T12:22:22+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:1170
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1141): bwg_upl->calc_thumb_resolution('', '', '1159', '628')
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(990): bwg_upl->set_file_info(Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#10 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 1170
+
+2022-04-25T12:22:30+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:470
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(508): bwg_upl->orient_image(Object(stdClass))
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(700): bwg_upl->handle_image_file('C:\\xampp\\htdocs...', Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(987): bwg_upl->handle_file_import('2022/04/fondo_g...', 'fondo_galeria.j...')
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#6 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#8 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#11 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 470
+
+2022-04-25T12:22:42+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:1170
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1141): bwg_upl->calc_thumb_resolution('', '', '2552', '1306')
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(990): bwg_upl->set_file_info(Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#10 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 1170
+
+2022-04-25T12:23:08+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:470
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(508): bwg_upl->orient_image(Object(stdClass))
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(700): bwg_upl->handle_image_file('C:\\xampp\\htdocs...', Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(987): bwg_upl->handle_file_import('2022/04/img2_ex...', 'img2_explora.jp...')
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#6 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#8 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#11 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 470
+
+2022-04-25T14:12:08+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:1170
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(1141): bwg_upl->calc_thumb_resolution('', '', '478', '598')
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(990): bwg_upl->set_file_info(Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#10 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 1170
+
+2022-04-25T14:13:39+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php:470
+Stack trace:
+#0 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(508): bwg_upl->orient_image(Object(stdClass))
+#1 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(700): bwg_upl->handle_image_file('C:\\xampp\\htdocs...', Object(stdClass))
+#2 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(987): bwg_upl->handle_file_import('2022/04/img3_ex...', 'img3_explora.jp...')
+#3 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(151): bwg_upl->post()
+#4 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(135): bwg_upl->initialize()
+#5 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php(26): bwg_upl->__construct(Array)
+#6 C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\photo-gallery.php(977): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(307): BWG->bwg_upl('')
+#8 C:\xampp\htdocs\moove\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\moove\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\moove\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bwg_upl')
+#11 {main}
+  thrown en C:\xampp\htdocs\moove\wp-content\plugins\photo-gallery\filemanager\UploadHandler.php en la línea 470
+

@@ -1,0 +1,14 @@
+2022-04-20T07:15:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\moove\wp-includes\class-wp-block-parser.php en la línea 266
+
+2022-04-20T07:15:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\moove\wp-content\themes\understrap-child-1.1.0\loop-templates\content.php en la línea 11
+
+2022-04-20T10:49:28+00:00 CRITICAL Cannot redeclare get_post_permalink() (previously declared in C:\xampp\htdocs\moove\wp-includes\link-template.php:319) en C:\xampp\htdocs\moove\wp-content\themes\understrap-child-1.1.0\functions.php en la línea 274
+
+2022-04-20T10:49:55+00:00 CRITICAL Cannot redeclare get_post_permalink() (previously declared in C:\xampp\htdocs\moove\wp-includes\link-template.php:319) en C:\xampp\htdocs\moove\wp-content\themes\understrap-child-1.1.0\functions.php en la línea 276
+
+2022-04-20T10:52:23+00:00 CRITICAL Cannot redeclare get_post_permalink() (previously declared in C:\xampp\htdocs\moove\wp-includes\link-template.php:319) en C:\xampp\htdocs\moove\wp-content\themes\understrap-child-1.1.0\functions.php en la línea 274
+
+2022-04-20T14:43:50+00:00 CRITICAL Cannot redeclare get_the_permalink() (previously declared in C:\xampp\htdocs\moove\wp-includes\link-template.php:157) en C:\xampp\htdocs\moove\wp-content\themes\understrap-child-1.1.0\functions.php en la línea 279
+
+2022-04-20T14:44:02+00:00 CRITICAL Cannot redeclare get_the_permalink() (previously declared in C:\xampp\htdocs\moove\wp-includes\link-template.php:157) en C:\xampp\htdocs\moove\wp-content\themes\understrap-child-1.1.0\functions.php en la línea 279
+

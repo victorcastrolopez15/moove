@@ -1,0 +1,4 @@
+2022-04-21T10:33:05+00:00 CRITICAL Cannot redeclare wp_trim_excerpt() (previously declared in C:\xampp\htdocs\moove\wp-includes\formatting.php:3854) en C:\xampp\htdocs\moove\wp-content\themes\understrap-child-1.1.0\functions.php en la línea 274
+
+2022-04-21T14:33:56+00:00 CRITICAL Cannot redeclare wp_trim_excerpt() (previously declared in C:\xampp\htdocs\moove\wp-includes\formatting.php:3854) en C:\xampp\htdocs\moove\wp-content\themes\understrap-child-1.1.0\functions.php en la línea 274
+

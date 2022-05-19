@@ -1,0 +1,843 @@
+@font-face {
+    font-family: Merriweather;
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Merriweather;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Source Sans Pro;
+    background-color: #ffffff;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* TAMANOS FUENTE */
+.font-size-10px{
+    font-size: 10px;
+}
+
+.font-size-12px{
+    font-size: 12px;
+}
+
+.font-size-14px{
+    font-size: 14px;
+}
+
+.font-size-15px{
+    font-size: 15px;
+}
+
+.font-size-16px{
+    font-size: 16px;
+}
+
+.font-size-18px{
+    font-size: 18px;
+}
+
+.font-size-20px{
+    font-size: 20px;
+}
+
+.font-size-24px{
+    font-size: 24px;
+}
+
+.font-size-25px{
+    font-size: 25px;
+}
+
+.font-size-28px{
+    font-size: 28px;
+}
+
+.font-size-30px{
+    font-size: 30px;
+}
+
+.font-size-35px{
+    font-size: 35px;
+}
+
+.font-size-45px{
+    font-size: 45px;
+}
+
+
+/* COLORES DE TIPOGRAFÍA Y FONDOS */
+.tipografia-azul-claro{
+    color: #A6D9EE;
+}
+
+.fondo-azul-claro{
+    background-color: #A6D9EE;
+}
+
+.fondo-azul-celeste{
+    background-color: #7FD8FD;
+}
+
+.fondo-azul{
+    background-color: #183886;
+}
+
+.fondo-azul-transparente{
+    background-color: #183786af;
+}
+
+.fondo-gris{
+    background-color: #707070;
+}
+
+.fondo-blanco{
+    background-color: #FFFFFF;
+}
+
+.tipografia-gris{
+    color: #BEBEBE;
+}
+
+.tipografia-blanco{
+    color: #FFFFFF;
+}
+
+.tipografia-negro{
+    color: #242A3A;
+}
+
+.fondo-negro{
+    background-color: #242A3A;
+}
+
+.fondo-negro-trans{
+    background-color: #242a3aaa;
+}
+
+/* HEADER */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.burger{
+    margin-right: 5%;
+}
+
+#button-burger{
+    box-shadow: none;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 62%;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-nav li{
+    margin-right: 6rem;
+}
+
+#main-menu li a{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#logo{
+    width: 36%;
+}
+
+
+/* HOME */
+#info_head{
+    margin-left: 140px;
+}
+
+#form_destinos{
+    height: 50px;
+}
+
+#search{
+    border-radius: 0%;
+    width: 275px;
+}
+
+#div1_home{
+    background-image: url(../assets/fondo1_home.jpg);
+    height: 824px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#titles{
+    margin-left: 140px; 
+    padding-top: 15%;
+}
+
+.border_radius{
+    border-radius: 10px 10px 10px 10px;
+}
+
+#input_viajes{
+    padding-left: 10px;
+    padding-right: 5px;
+    position: relative;
+    border: 0px;
+}
+
+#input_viajes::before{
+    content: "\f14e";
+    font-family: "Font Awesome 5 Free";
+    width: 21px;
+    height: 23px;
+    display: block;
+    margin-right: 2px;
+}
+
+.img_destinos{
+    background-image: url(../assets/fondo_card1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#button_destinos{
+    width: 82px; 
+    height: 20; 
+    border: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.center_image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards_destinos{
+    height: 299px;
+}
+
+.difuminado{
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.693));
+}
+
+.fondo_explora{
+    background-image: url(../assets/fondo_explora.png);
+    padding-bottom: 1%;
+}
+
+#card_explora{
+    max-width: 1300px;
+    margin-left: 15.3%;
+    max-height: 305px;
+}
+
+.enlace_blog:hover{
+    color: #242A3A;
+}
+
+.size-cards{
+    width: 100%;
+}
+
+#img1_card1{
+    max-height: 305px;
+    max-width: 400px;
+}
+
+.img2_card2{
+    background-image: url(../assets/img2_explora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img3_card3{
+    background-image: url(../assets/img3_explora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img4_card4{
+    background-image: url(../assets/img4_explora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#field_1_1{
+    width: 27rem;
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
+
+.separacion{
+    letter-spacing: 3px;
+}
+
+/* VIAJES */
+.padding_right{
+    padding-right: 5%;
+}
+
+.padding_top{
+    padding-top: 22%;
+}
+
+.enlace_viaje{
+    width: 35%;
+    height: 40px;
+}
+
+.button_viaje{
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* DETALLES DE VIAJE */
+.margin_top_7rem{
+    margin-top: 7rem;
+}
+
+#galeria_img{
+    height: 357px;
+}
+
+.tamaño_imagen_detalle_viaje{
+    width: 746px;
+    height: 403px;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    z-index: 500;
+}
+
+.overlay.active{
+    visibility: visible;
+}
+
+.popup{
+    background: #F8F8F8;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    width: 1320px;
+
+
+}
+
+.popup .btn-cerrar-popup{
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #BBBBBB;
+    transition: .3s ease all;
+}
+
+.popup .btn-cerrar-popup:hover{
+    color: #000000;
+}
+
+.popup h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    /* opacity: 0; */
+
+}
+
+
+
+
+#img_ruta{
+    width: 52px;
+    height: 52px;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.recorrido{
+    margin-left: 15%;
+    margin-top: -11%;
+    width: 15%;
+}
+
+.posicion_img_recorrido{
+    width: 58%;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.distancia{
+    margin-bottom: -10%;
+    padding-left: 46%;
+    margin-top: 10%;
+}
+
+.desnivel{
+    margin-top: -35%;
+    margin-left: -1%;
+}
+
+#fondo_ruta{
+    background-image: url(../assets/fondo_ruta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.altura_div_ruta{
+    height: 180px;
+}
+
+.fondo_galeria{
+    background-image: url(../assets/fondo_galeria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border_radius_50{
+    border-radius: 50px 50px 50px 50px;
+    border: 0;
+}
+
+.img_dv{
+    height: 360px;
+}
+
+.margin_right_1rem{
+    margin-right: 1rem;
+}
+
+.margin_left_1rem{
+    margin-left: 1.5rem;
+}
+
+.margin_top_5rem{
+    margin-top: 5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFFFFF;
+    background-color: #A6D9EE;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #A6D9EE;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(166,217,238,.25);
+}
+
+.accordion-button.collapsed::after {
+    background: none;
+    content: "VER DETALLE";
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 105px;
+    height: 1.25rem;
+    margin-left: auto;
+    transition: transform .2s ease-in-out;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#gform_fields_2 input{
+    border: 0px;
+    background-color: #FBFBFB;
+}
+
+#gform_submit_button_2{
+    font-family: Merriweather;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #7FD8FD;
+    border: 0px;
+    padding: 2%;
+}
+
+.mostrar{
+    display: none;
+}
+
+#loadMore{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    width: 40%;
+    padding: 3%;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+
+/* FOOTER */
+.ul_footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.ul_footer ul li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ul_footer ul li a{
+    text-decoration: none;
+    color: #242A3A;
+}
+
+.rrss{
+    border: 1px solid #242A3A; 
+    height: 115px; 
+    padding: 0;
+}
+
+.redes{
+    float: right;
+    margin-left: 2rem;
+}
+
+#div_legal_notices{
+    background-color: #242A3A;
+}
+
+#div_legal_notices ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#form_footer{
+    margin-top: -133px;
+    margin-left: 39%; 
+}
+
+#gform_1{
+    display: flex;
+}
+
+.gform_body{
+    padding-top: 20px;
+}
+
+.gform_wrapper.gravity-theme .gform_footer, .gform_wrapper.gravity-theme .gform_page_footer {
+    margin: 4px 0 0;
+    padding: 16px 0;
+  }
+
+#gform_wrapper_1 .ginput_container_email{
+    height: 77px;
+    border: 4px solid #FBFBFB;
+    width: 100%;
+}
+
+#input_1_1{
+    height: 69px;
+    border: 0px;
+}
+
+#gform_submit_button_1{
+    width: 158px;
+    height: 77px;
+    margin-bottom: 24px;
+    background-color: #242A3A;
+    color: #FFF;
+    border: 0px;
+}
+
+#div_40{
+    width: 40%;
+}
+
+#div_60{
+    width: 60%;
+}
+
+.custom-menu-class{
+    width: 75%;
+}
+
+.custom-menu-class ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu{
+    width: 100%;
+    padding-left: 0;
+}
+
+#div_legal_notices ul{
+    list-style: none;
+    display: flex;
+}
+
+#div_legal_notices ul li{
+    margin-right: 2rem;
+}
+
+.posicion_derecha{
+    float: right;
+}
+
+
+/* RESPONSIVE */
+
+/* IPAD */
+@media (max-width: 992px){
+    /* HOME */
+    .navbar-nav {
+        flex-direction: column;
+        padding-left: 9%;
+        padding-top: 3%;
+    }
+
+    #container_logo {
+        margin-left: 75px;
+    }
+
+    #info_head{
+        margin-left: 60px;
+    }
+
+    #titles{
+        margin-left: 60px; 
+        padding-top: 35%;
+    }
+
+    .cards_destinos{
+        width: 50%;
+        margin-bottom: 5%;
+    }
+    
+    #form_footer{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-left: 0;
+        padding-top: 5%;
+    }
+
+    #gform_1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #div_legal_notices{
+        height: 7rem;
+    }
+
+    .legal_notices{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #legal{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .custom-menu-class{
+        width: 100%;
+    }
+
+    #menu-menu-footer{
+        padding-top: 1rem !important;
+    }
+
+    .rrss{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .redes{
+        margin-left: 0;
+    }
+
+    #code{
+        width: 100%;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    #drch{
+        float: left;
+    }
+
+    #form_suscripcion{
+        padding-left: 2%;
+    }
+
+    #suscripcion{
+        width: 100%;
+    }
+
+    /* DETALLES VIAJE */
+    .row_responsive{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .recorrido {
+        margin-left: 45%;
+        margin-top: -24%;
+        width: 30%;
+    }
+}
+
+/* IPHONE    */
+@media (max-width: 450px){
+    #container_logo{
+        margin-left: 20px;
+    }
+
+    #info_head{
+        margin-left: 5px;
+        width: 100%;
+    }
+
+    #search{
+        width: 100%;
+    }
+
+    #form_destinos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #input_viajes{
+        width: 100%;
+        padding: 3%;
+        justify-content: center;
+    }
+
+    #titles{
+        margin-left: 5px; 
+        padding-top: 70%;
+    }
+
+    .navbar-nav {
+        padding-left: 4%;
+    }
+
+    #container_logo{
+        width: 45%;
+    }
+
+    .burger{
+        margin-right: 5%;
+    }
+
+    .ginput_container_email{
+        width: 55%;
+    }
+
+    .iphone{
+        width: 100%;
+    }
+
+    .container_noticias{
+        flex-direction: column;
+    }
+
+    .cards_destinos{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .noticias_blog{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .rrss{
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .ginput_container_email {
+        width: 55%;
+    }
+
+    #div_legal_notices{
+        height: 12rem;
+    }
+
+    #menu-menu-footer{
+        flex-direction: column;
+    }
+
+    #menu-menu-footer li{
+        margin-top: 10px;
+    }
+
+    #drch{
+        margin-bottom: 0;
+    }
+
+    #form_suscripcion{
+        padding-left: 4%;
+    }
+
+    /* DETALLES DE VIAJES */
+    .recorrido {
+        margin-left: 40%;
+        margin-top: -52%;
+        width: 57%;
+    }
+}
